@@ -70,6 +70,8 @@ ga:
 	cd toolkits/graph_analytics/; make
 ta:
 	cd toolkits/text_analysis/; make
+gnn:
+	cd gnn; make
 
 docs: */**
 	doxygen conf/doxygen/doxygen.config
